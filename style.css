@@ -1,0 +1,26 @@
+.image{
+    margin-top: 25vh;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+form{
+    text-align: center;
+}
+@media (max-width:1000px){
+    .image{
+        width: 50%;
+        margin-top: 25vh;
+    }
+}
+@media (prefers-color-scheme: dark) {
+    body {
+      background-color: #000;
+      color: #fff;
+    }
+    input{
+        background-color: #777;
+        color: #fff;
+        border-color: black;
+    }
+  }
